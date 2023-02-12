@@ -117,17 +117,46 @@ li::before {
     background-size: cover, cover;
     background-position: center, center;
 }
-
 .section-3 h2 {
-
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     color: #FFFFFF;
     padding: 55px 500px 24px 64px;
 }
-
 .section-3 button {
     margin-left: 64px;
     margin-bottom: 69px;
+}
+/* Footer Section */
+footer {
+    display: flex;
+    padding: 130px 230px;
+    color: #FFFFFF;
+    background-color: black;
+    line-height: 26px;
+}
+img{
+    margin: 8px;
+}
+.email {
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: black;
+    padding: 20px 21px;
+    margin: 31px auto 31px;
+    color: #FFFFFF;
+}
+.subscribe {
+    margin-left: 50px;
+}
+
+.submit {
+    color: #FFFFFF;
+    background-color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+
+    padding: 20px;
+    border-radius: 8px
 }

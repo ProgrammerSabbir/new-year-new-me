@@ -1,8 +1,92 @@
-*{
+* {
+    margin: 0;
     font-family: 'Berkshire Swash', cursive;
-font-family: 'Manrope', sans-serif;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
-.header{
+.header {
     text-align: right;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    padding: 216px 230px 364px 845px;
+}
+.header h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.header p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+.primary-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    width: 160px;
+    height: 64px;
+}
+main {
+    margin: 130px 230px;
+}
+.section-1 {
+    display: flex;
+    margin-bottom: 130px;
+}
+.failure {
+    margin-top: 270px;
+    margin-left: 87px;
+    margin-right: 10px;
+}
+.section-title {
+    font-weight: 800;
+    font-size: 40px;
+}
+.section-1 p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* N.B.: I got this trick from ChatGPT to use tic mark in the list by asking him */
+ul {
+    list-style-type: none;
+    padding-left: 5px;
+    line-height: 26px;
+}
+li::before {
+    content: "\2713";
+    color: green;
+    font-size: 2 em;
+    margin-right: 5px;
+}
+.section-2 {
+    text-align: center;
+}
+.plan-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.plan-items h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.plan-items p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
 }
